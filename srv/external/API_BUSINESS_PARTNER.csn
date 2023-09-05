@@ -1,6 +1,6 @@
 {
   "meta": {
-    "creator": "cds-dk 6.0.2"
+    "creator": "cds-dk 4.9.1"
   },
   "$version": "2.0",
   "definitions": {
@@ -834,8 +834,8 @@
         "ValidityEndDate": {
           "key": true,
           "type": "cds.DateTime",
-          "@odata.Type": "Edm.DateTimeOffset",
-          "@odata.Precision": 0,
+          "@odata.type": "Edm.DateTimeOffset",
+          "@odata.precision": 0,
           "@sap.label": "Valid To",
           "@sap.quickinfo": "Validity End of a Business Partner Address Usage"
         },
@@ -857,8 +857,8 @@
         },
         "ValidityStartDate": {
           "type": "cds.DateTime",
-          "@odata.Type": "Edm.DateTimeOffset",
-          "@odata.Precision": 0,
+          "@odata.type": "Edm.DateTimeOffset",
+          "@odata.precision": 0,
           "@sap.label": "Valid From",
           "@sap.quickinfo": "Validity Start of a Business Partner Address Usage"
         },
@@ -1617,15 +1617,15 @@
         },
         "ValidityStartDate": {
           "type": "cds.DateTime",
-          "@odata.Type": "Edm.DateTimeOffset",
-          "@odata.Precision": 0,
+          "@odata.type": "Edm.DateTimeOffset",
+          "@odata.precision": 0,
           "@sap.label": "Valid From",
           "@sap.quickinfo": "Validity Start of a Business Partner Address"
         },
         "ValidityEndDate": {
           "type": "cds.DateTime",
-          "@odata.Type": "Edm.DateTimeOffset",
-          "@odata.Precision": 0,
+          "@odata.type": "Edm.DateTimeOffset",
+          "@odata.precision": 0,
           "@sap.label": "Valid To",
           "@sap.quickinfo": "Validity End of a Business Partner Address"
         },
@@ -2052,15 +2052,15 @@
         },
         "ValidityStartDate": {
           "type": "cds.DateTime",
-          "@odata.Type": "Edm.DateTimeOffset",
-          "@odata.Precision": 0,
+          "@odata.type": "Edm.DateTimeOffset",
+          "@odata.precision": 0,
           "@sap.label": "Valid From",
           "@sap.quickinfo": "Validity Start of Business Partner Bank Details"
         },
         "ValidityEndDate": {
           "type": "cds.DateTime",
-          "@odata.Type": "Edm.DateTimeOffset",
-          "@odata.Precision": 0,
+          "@odata.type": "Edm.DateTimeOffset",
+          "@odata.precision": 0,
           "@sap.label": "Valid To",
           "@sap.quickinfo": "Validity End of Business Partner Bank Details"
         },
@@ -2222,15 +2222,15 @@
         },
         "ValidFrom": {
           "type": "cds.DateTime",
-          "@odata.Type": "Edm.DateTimeOffset",
-          "@odata.Precision": 0,
+          "@odata.type": "Edm.DateTimeOffset",
+          "@odata.precision": 0,
           "@sap.label": "Valid From",
           "@sap.quickinfo": "Validity Start of a BP Role"
         },
         "ValidTo": {
           "type": "cds.DateTime",
-          "@odata.Type": "Edm.DateTimeOffset",
-          "@odata.Precision": 0,
+          "@odata.type": "Edm.DateTimeOffset",
+          "@odata.precision": 0,
           "@sap.label": "Valid To",
           "@sap.quickinfo": "Validity End of a BP Role"
         },
