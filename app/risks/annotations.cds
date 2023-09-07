@@ -20,6 +20,7 @@ using RiskService from '../../srv/risk-service';
        {Value : title},
        {Value : miti_ID},
        {Value : owner},
+       {Value : bp_BusinessPartner},
        { 
           Value : prio,
           Criticality : criticality
@@ -40,6 +41,7 @@ using RiskService from '../../srv/risk-service';
      FieldGroup #Main : {Data : [
        {Value : miti_ID},
        {Value : owner},
+       {Value : bp_BusinessPartner},
        {
            Value : prio,
            Criticality : criticality
